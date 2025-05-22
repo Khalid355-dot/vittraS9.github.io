@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Klass S9:s Hemsida</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #2b6cb0;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav {
+      background-color: #1a202c;
+      text-align: center;
+      padding: 0.8em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+    }
+    footer {
+      background-color: #e2e8f0;
+      text-align: center;
+      padding: 1em;
+      margin-top: 2em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Välkommen till Klass S9:s Hemsida</h1>
+    <p>Här hittar du allt du behöver veta om vår klass!</p>
+  </header>
+
+  <nav>
+    <a href="#nyheter">Nyheter</a>
+    <a href="#schema">Schema</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="nyheter">
+    <h2>📢 Senaste Nytt</h2>
+    <p>Vi i S9 ska åka på studiebesök nästa fredag!</p>
+    <p>Grattis till grupp 2 som vann programmeringstävlingen!</p>
+    <img src="bilder/klassfoto.jpg" alt="Klass S9 - foto">
+  </section>
+
+  <section id="schema">
+    <h2>📅 Veckans Schema</h2>
+    <ul>
+      <li><strong>Måndag:</strong> Svenska, Bild</li>
+      <li><strong>Tisdag:</strong> Teknik, NO</li>
+      <li><strong>Onsdag:</strong> Matte, Engelska</li>
+      <li><strong>Torsdag:</strong> Idrott, Slöjd</li>
+      <li><strong>Fredag:</strong> Samhällskunskap, Musik</li>
+    </ul>
+  </section>
+
+  <section id="kontakt">
+    <h2>📬 Kontakt</h2>
+    <p>Mentor: <a href="mailto:mentor@skola.se">mentor@skola.se</a></p>
+    <p>Plats: Sal 203, våning 2</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Klass S9 – Byggd med ❤️ i Teknik</p>
+  </footer>
+
+</body>
+</html>
